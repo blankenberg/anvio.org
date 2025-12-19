@@ -58,9 +58,9 @@ anvi&#45;rename&#45;bins &#45;c <span class="artifact&#45;n">[contigs&#45;db](/h
                  &#45;&#45;report&#45;file rename.txt
 </div>
 
-Now your <span class="artifact-n">[profile-db](/help/8/artifacts/profile-db)</span> will have a new collection named `SURFACE_OCEAN_SAMPLES` that will contains your four bins witht their new names `SURFACE_OCEAN_Bin_00001`, `SURFACE_OCEAN_Bin_00002`, `SURFACE_OCEAN_Bin_00003`, and `SURFACE_OCEAN_Bin_00004`. The new naming will order your bins based on their substantive completion (i.e., completion minus redunancy).
+Now your <span class="artifact-n">[profile-db](/help/8/artifacts/profile-db)</span> will have a new collection named `SURFACE_OCEAN_SAMPLES` that will contains your four bins witht their new names `SURFACE_OCEAN_Bin_00001`, `SURFACE_OCEAN_Bin_00002`, `SURFACE_OCEAN_Bin_00003`, and `SURFACE_OCEAN_Bin_00004`. The new naming will order your bins based on their substantive completion (i.e., completion minus redundancy).
 
-The file `rename.txt` is a TAB-delimited file that contains a summary of your renaming process. The first column has the original name of the bins that you renamed, the second has their new names, and the remaining columns contain information about those bins (like their completion, redundency, and size).
+The file `rename.txt` is a TAB-delimited file that contains a summary of your renaming process. The first column has the original name of the bins that you renamed, the second has their new names, and the remaining columns contain information about those bins (like their completion, redundancy, and size).
 
 ### Separating out the MAGs
 
@@ -77,7 +77,7 @@ anvi&#45;rename&#45;bins &#45;c <span class="artifact&#45;n">[contigs&#45;db](/h
                  &#45;&#45;min&#45;completion&#45;for&#45;MAG 70
 </div>
 
-Now, the <span class="artifact-n">[collection](/help/8/artifacts/collection)</span> `SURFACE_OCEAN_MAGS` will include  `SURFACE_OCEAN_MAG_00001`, `SURFACE_OCEAN_MAG_00002`, `SURFACE_OCEAN_MAG_00003`, and `SURFACE_OCEAN_Bin_00004`. These are exactly the same bins that the collection contained before, but now the names differenciate the wheat from the chaff.
+Now, the <span class="artifact-n">[collection](/help/8/artifacts/collection)</span> `SURFACE_OCEAN_MAGS` will include  `SURFACE_OCEAN_MAG_00001`, `SURFACE_OCEAN_MAG_00002`, `SURFACE_OCEAN_MAG_00003`, and `SURFACE_OCEAN_Bin_00004`. These are exactly the same bins that the collection contained before, but now the names differentiate the wheat from the chaff.
 
 In addition to minimum completion estimate, you can also adjust the maximum redundancy value, minimum size to call MAGs. Please see the help menu for all parameters and their descriptions. 
 

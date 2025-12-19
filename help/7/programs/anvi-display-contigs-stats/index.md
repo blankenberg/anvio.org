@@ -60,7 +60,7 @@ Below this are the **contigs stats** which are displayed in the following order:
 - The number of HMM hits in your contigs. This goes through every <span class="artifact-n">[hmm-source](/help/7/artifacts/hmm-source)</span> and gives the number of hits its genes had in all of your contigs. Basically, this is the number of hits that is given in the lower graph at the top of the page. 
 - The number of genomes that anvi'o predicts are in your sample, based on how many hits the single copy core genes got from the various <span class="artifact-n">[hmm-source](/help/7/artifacts/hmm-source)</span>s. See the description of the lower graph above, or [this blog post](http://merenlab.org/2015/12/07/predicting-number-of-genomes/) for more information. 
 
-This interface is espeically useful if you want to compare multiple databases, since you can view all of their stats stimultaneously.
+This interface is especially useful if you want to compare multiple databases, since you can view all of their stats stimultaneously.
 
 You can also change various server configuration settings when you run this command. 
 

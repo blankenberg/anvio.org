@@ -72,7 +72,7 @@ Input sequence ......: ... CGAAAAACG ...
 ```
 
 {:.warning}
-Please note that INDEL errors associated with homopolymers are only a subset of errors that will casue frameshifts and impact amino acid sequences.
+Please note that INDEL errors associated with homopolymers are only a subset of errors that will cause frameshifts and impact amino acid sequences.
 
 ## Homopolymer length
 

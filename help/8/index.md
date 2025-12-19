@@ -1418,7 +1418,7 @@ Listed below **a total of 147 programs**.
 <tbody>
 <tr style="border:none;">
     <td class="program-td">
-        <span class="artifact-emoji">🔥</span> <span markdown="1">**[anvi-gen-phylogenomic-tree](programs/anvi-gen-phylogenomic-tree)**</span>. <span markdown="1">Generate phylogenomic tree from aligment file</span>.
+        <span class="artifact-emoji">🔥</span> <span markdown="1">**[anvi-gen-phylogenomic-tree](programs/anvi-gen-phylogenomic-tree)**</span>. <span markdown="1">Generate phylogenomic tree from alignment file</span>.
     </td>
 </tr>
 <tr>
@@ -3005,7 +3005,7 @@ Listed below **a total of 147 programs**.
 <tbody>
 <tr style="border:none;">
     <td class="program-td">
-        <span class="artifact-emoji">🔥</span> <span markdown="1">**[anvi-search-functions](programs/anvi-search-functions)**</span>. <span markdown="1">Search functions in an anvi&#x27;o contigs database or genomes storage. Basically, this program searches for one or more search terms you define in functional annotations of genes in an anvi&#x27;o contigs database, and generates multiple reports. The default report simply tells you which contigs contain genes with functions matching to serach terms you used, useful for viewing in the interface. You can also request a much more comprehensive report, which gives you anything you might need to know for each hit and serach term</span>.
+        <span class="artifact-emoji">🔥</span> <span markdown="1">**[anvi-search-functions](programs/anvi-search-functions)**</span>. <span markdown="1">Search functions in an anvi&#x27;o contigs database or genomes storage. Basically, this program searches for one or more search terms you define in functional annotations of genes in an anvi&#x27;o contigs database, and generates multiple reports. The default report simply tells you which contigs contain genes with functions matching to search terms you used, useful for viewing in the interface. You can also request a much more comprehensive report, which gives you anything you might need to know for each hit and search term</span>.
     </td>
 </tr>
 <tr>
@@ -4452,7 +4452,7 @@ Listed below **a total of 147 programs**.
 <tbody>
 <tr style="border:none;">
     <td class="program-td">
-        <span class="artifact-emoji">🔥</span> <span markdown="1">**[anvi-script-process-genbank-metadata](programs/anvi-script-process-genbank-metadata)**</span>. <span markdown="1">This script takes the &#x27;metadata&#x27; output of the program `ncbi-genome-download` (see [https://github.com/kblin/ncbi-genome-download](https://github.com/kblin/ncbi-genome-download) for details), and processes each GenBank file found in the metadata file to generate a FASTA file, as well as genes and functions files for each entry. Plus, it autmatically generates a FASTA TXT file descriptor for anvi&#x27;o snakemake workflows. So it is a multi-talented program like that</span>.
+        <span class="artifact-emoji">🔥</span> <span markdown="1">**[anvi-script-process-genbank-metadata](programs/anvi-script-process-genbank-metadata)**</span>. <span markdown="1">This script takes the &#x27;metadata&#x27; output of the program `ncbi-genome-download` (see [https://github.com/kblin/ncbi-genome-download](https://github.com/kblin/ncbi-genome-download) for details), and processes each GenBank file found in the metadata file to generate a FASTA file, as well as genes and functions files for each entry. Plus, it automatically generates a FASTA TXT file descriptor for anvi&#x27;o snakemake workflows. So it is a multi-talented program like that</span>.
     </td>
 </tr>
 <tr>

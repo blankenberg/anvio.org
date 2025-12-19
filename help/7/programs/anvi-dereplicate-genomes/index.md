@@ -76,7 +76,7 @@ For example, if you had the results from an <span class="artifact-n">[anvi-compu
 <div class="codeblock" markdown="1">
 anvi&#45;dereplictate&#45;genomes &#45;&#45;ani&#45;dir <span class="artifact&#45;n">[genome&#45;similarity](/help/7/artifacts/genome&#45;similarity)</span> \ 
                           &#45;o path/to/output \
-                          &#45;&#45;similiarity&#45;threshold 0.90
+                          &#45;&#45;similarity&#45;threshold 0.90
 </div>
 
 If instead you hadn't yet run <span class="artifact-n">[anvi-compute-genome-similarity](/help/7/programs/anvi-compute-genome-similarity)</span> and instead wanted to cluster the genomes in your <span class="artifact-n">[external-genomes](/help/7/artifacts/external-genomes)</span> file with similarity 85 percent or more (no fasta files necessary) using sourmash, you could run: 
@@ -86,7 +86,7 @@ anvi&#45;dereplictate&#45;genomes &#45;e <span class="artifact&#45;n">[external&
                           &#45;&#45;skip&#45;fasta&#45;report \
                           &#45;&#45;program sourmash \
                           &#45;o path/to/output \
-                          &#45;&#45;similiarity&#45;threshold 0.85 
+                          &#45;&#45;similarity&#45;threshold 0.85
 </div>
 
 #### Other parameters
@@ -95,7 +95,7 @@ You can change how anvi'o picks the representative sequence from each cluster wi
 
 - `Qscore`: picks the genome with highest completion and lowest redundancy
 - `length`: picks the longest genome in the cluster
-- `centrality` (default): picks the genome with highest average similiarty to every other genome in the cluster
+- `centrality` (default): picks the genome with highest average similarity to every other genome in the cluster
 
 You can also choose to skip checking genome hashes (which will warn you if you have identical sequences in separate genomes with different names), provide a log path for debug messages or use multithreading (relevant only if not providing `--ani-dir` or `--mash-dir`).
 

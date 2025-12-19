@@ -66,7 +66,7 @@ Maximum template length to consider ..........: 500,000
 WARNING
 ===============================================
 Some of your contigs, 2 of 8 to be precise, did not seem to have any template
-lenght data. There are many reasons this could happen, including a very high
+length data. There are many reasons this could happen, including a very high
 `--min-tlen-frequency` parameter for BAM files with small number of reads. But
 since there are some contigs that seem to have proper paired-end reads with
 template lengths, anvi'o will continue reporting and put zeros for contigs that

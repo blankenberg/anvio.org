@@ -63,7 +63,7 @@ This will put all of the output files (the final <span class="artifact-n">[profi
 
 ## Other Parameters
 
-You must give `anvi-merge` your contigs database and single profile databases. However, you can also provide more information or give addtional instructions. Use the flag `-h` at any time to display the help menu.
+You must give `anvi-merge` your contigs database and single profile databases. However, you can also provide more information or give additional instructions. Use the flag `-h` at any time to display the help menu.
 
 ### Hierarchical Clustering 
 

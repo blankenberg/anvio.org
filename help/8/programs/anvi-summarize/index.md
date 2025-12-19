@@ -45,7 +45,7 @@ Summarizer for anvi&#x27;o pan or profile db&#x27;s. Essentially, this program t
 
 Anvi-summarize lets you look at a **comprehensive overview of your <span class="artifact-n">[collection](/help/8/artifacts/collection)</span>** and its many statistics that anvi'o has calculated. 
 
-It will create a folder called `SUMMARY` that contains many different summary files, including an HTML output that conviently displays them all for you. This folder will contain anything a future user might use to import your collection, so it's useful to send to others or transfer an entire anvi'o collection and all of its data. 
+It will create a folder called `SUMMARY` that contains many different summary files, including an HTML output that conveniently displays them all for you. This folder will contain anything a future user might use to import your collection, so it's useful to send to others or transfer an entire anvi'o collection and all of its data.
 
 In a little more detail, this program will   
 * generate <span class="artifact-n">[fasta](/help/8/artifacts/fasta)</span> files containing your original contigs.   

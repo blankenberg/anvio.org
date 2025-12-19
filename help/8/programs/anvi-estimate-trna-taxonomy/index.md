@@ -66,7 +66,7 @@ anvi&#45;estimate&#45;trna&#45;taxonomy &#45;c <span class="artifact&#45;n">[con
 
 ### 2: Running on a metagenome
 
-In metagenome mode, this program will assume that your <span class="artifact-n">[contigs-db](/help/8/artifacts/contigs-db)</span> contains multiple genomes and will try to give you an overview of the taxa within it.  To do this, anvi'o will determine which anticodon has the most hits in your contigs (for example `GGG`), and then will look at the taxnomy hits for tRNA with that anticodon across your contigs. 
+In metagenome mode, this program will assume that your <span class="artifact-n">[contigs-db](/help/8/artifacts/contigs-db)</span> contains multiple genomes and will try to give you an overview of the taxa within it.  To do this, anvi'o will determine which anticodon has the most hits in your contigs (for example `GGG`), and then will look at the taxonomy hits for tRNA with that anticodon across your contigs.
 
 <div class="codeblock" markdown="1">
 anvi&#45;estimate&#45;trna&#45;taxonomy &#45;c <span class="artifact&#45;n">[contigs&#45;db](/help/8/artifacts/contigs&#45;db)</span> \

@@ -66,7 +66,7 @@ anvi&#45;display&#45;contigs&#45;stats CONTIGS&#45;01.db \
                            CONTIGS&#45;XX.db
 </div>
 
-If you are comparing multiple, each contigs databse will become an individual column in all outputs.
+If you are comparing multiple, each contigs database will become an individual column in all outputs.
 
 ### Interactive output
 

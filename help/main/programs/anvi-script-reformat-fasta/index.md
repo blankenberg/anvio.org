@@ -52,7 +52,7 @@ A simpe program to perform a combination of simple operations on a FASTA file in
 * Renaming sequences so they have simplified deflines (more on this in the next section),
 * Adding a prefix to sequence names in a FASTA file (useful when you wish to concatenate multiple FASTA files and want to make sure each sequence name is unique and tracable back to its original source),
 * Removing sequences that are shorter or longer than specific thresholds, or only keeping those that match to a specific length,
-* Removing sequences if they contain more than a number of gap characters or exceed the precentage of gap characters you permit (some simple quality checks prior to phylogenetic / phylogenomic analyses),
+* Removing sequences if they contain more than a number of gap characters or exceed the percentage of gap characters you permit (some simple quality checks prior to phylogenetic / phylogenomic analyses),
 * Excluding sequences that match to a list of sequence IDs, or only keep those that match to a list of sequence IDs,
 * Enforcing a sequence type and to replace any character with `N` for nucleotide sequences that are not A, C, T, or G, or to replace any character with `X` for amino acid sequences if the character does not match any of the single-letter amino acid characters (useuful to make sure the input file conforms the expectations of that input file type (i.e., all DNA sequences, or all AA sequences, etc)).
 

@@ -37,7 +37,7 @@ This described a [NEWICK-formatted](https://en.wikipedia.org/wiki/Newick_format)
 {:.notice}
 If you're looking for phylogenic trees, take a look at <span class="artifact-n">[phylogeny](/help/7/artifacts/phylogeny)</span> 
 
-Instead, the dendrogram artifact most often describes the tree used as a <span class="artifact-n">[misc-data-items-order](/help/7/artifacts/misc-data-items-order)</span>: the order that the items in <span class="artifact-n">[anvi-interactive](/help/7/programs/anvi-interactive)</span> are displayed in (the central tree in the circular display). Often, these are the order of your contigs or genes based on their relatedness to each other (for example by tetranucleotide frequency or differencial coverage). These trees are also contained in <span class="artifact-n">[misc-data-layer-orders](/help/7/artifacts/misc-data-layer-orders)</span>.
+Instead, the dendrogram artifact most often describes the tree used as a <span class="artifact-n">[misc-data-items-order](/help/7/artifacts/misc-data-items-order)</span>: the order that the items in <span class="artifact-n">[anvi-interactive](/help/7/programs/anvi-interactive)</span> are displayed in (the central tree in the circular display). Often, these are the order of your contigs or genes based on their relatedness to each other (for example by tetranucleotide frequency or differential coverage). These trees are also contained in <span class="artifact-n">[misc-data-layer-orders](/help/7/artifacts/misc-data-layer-orders)</span>.
 
 A dendrogram is also listed as the output of programs that are not necessarily related to phylogenetics (like <span class="artifact-n">[anvi-matrix-to-newick](/help/7/programs/anvi-matrix-to-newick)</span>).  
 

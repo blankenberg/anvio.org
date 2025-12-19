@@ -34,7 +34,7 @@ There are no anvi'o tools that use or require this artifact directly, which mean
 
 This file contains **the frequency of each amino acid for some reference context in your <span class="artifact-n">[contigs-db](/help/7/artifacts/contigs-db)</span>**.  
 
-This is a tab-delimited table where each column represents an amino acid and each row represents a specific reference context (most often this will be a gene after running <span class="artifact-n">[anvi-get-codon-frequencies](/help/7/programs/anvi-get-codon-frequencies)</span>). The numbers will either refer to counts of each amino acid or precent normalizations depending on the parameters with which you ran <span class="artifact-n">[anvi-get-codon-frequencies](/help/7/programs/anvi-get-codon-frequencies)</span>. 
+This is a tab-delimited table where each column represents an amino acid and each row represents a specific reference context (most often this will be a gene after running <span class="artifact-n">[anvi-get-codon-frequencies](/help/7/programs/anvi-get-codon-frequencies)</span>). The numbers will either refer to counts of each amino acid or percent normalizations depending on the parameters with which you ran <span class="artifact-n">[anvi-get-codon-frequencies](/help/7/programs/anvi-get-codon-frequencies)</span>.
 
 You can also use <span class="artifact-n">[anvi-get-aa-counts](/help/7/programs/anvi-get-aa-counts)</span> to get this information for a <span class="artifact-n">[bin](/help/7/artifacts/bin)</span>, <span class="artifact-n">[collection](/help/7/artifacts/collection)</span>, or <span class="artifact-n">[splits-txt](/help/7/artifacts/splits-txt)</span>. 
 

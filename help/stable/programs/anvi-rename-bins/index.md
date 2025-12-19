@@ -59,13 +59,13 @@ anvi&#45;rename&#45;bins &#45;c <span class="artifact&#45;n">[contigs&#45;db](/s
                  &#45;&#45;report&#45;file rename.txt
 </div>
 
-And voila! Now you have a second collection named `SURFACE_OCEAN_SAMPLES` that contains your four bins, now named  `SURFACE_OCEAN_Bin_00001`, `SURFACE_OCEAN_Bin_00002`, `SURFACE_OCEAN_Bin_00003`, and `SURFACE_OCEAN_Bin_00004`. The order that the numbers are in represents the quality of the bin as a MAG, given by the completion minus redunancy. 
+And voila! Now you have a second collection named `SURFACE_OCEAN_SAMPLES` that contains your four bins, now named  `SURFACE_OCEAN_Bin_00001`, `SURFACE_OCEAN_Bin_00002`, `SURFACE_OCEAN_Bin_00003`, and `SURFACE_OCEAN_Bin_00004`. The order that the numbers are in represents the quality of the bin as a MAG, given by the completion minus redundancy.
 
-The file `rename.txt` is just a tab-delimited file that contains a summary of your renaming process. The first column has the original name of the bins that you renamed, the second has their new names, and the remaining columns contain information about those bins (like their completion, redundency, and size). 
+The file `rename.txt` is just a tab-delimited file that contains a summary of your renaming process. The first column has the original name of the bins that you renamed, the second has their new names, and the remaining columns contain information about those bins (like their completion, redundancy, and size).
 
 ### Example 2: Separating out the MAGs 
 
-Okay, but what if you want to label your MAGs separately from your bins? You don't like `SURFACE_OCEAN_bin_00004` since it only has a completition stat of 50 percent, and you're not sure if you want to include `SURFACE_OCEAN_bin_00003`  since it has 50 percent redundency. How can you differenciate these iffy bins in your collection? 
+Okay, but what if you want to label your MAGs separately from your bins? You don't like `SURFACE_OCEAN_bin_00004` since it only has a completion stat of 50 percent, and you're not sure if you want to include `SURFACE_OCEAN_bin_00003`  since it has 50 percent redundancy. How can you differentiate these iffy bins in your collection?
 
 Here is the solution: 
 
@@ -77,12 +77,12 @@ anvi&#45;rename&#45;bins &#45;c <span class="artifact&#45;n">[contigs&#45;db](/s
                  &#45;&#45;collection&#45;to&#45;write SURFACE_OCEAN_MAGS \
                  &#45;&#45;report&#45;file rename.txt \ 
                  &#45;&#45;call&#45;MAGs \
-                 &#45;&#45;min&#45;completition&#45;for&#45;MAG 70 
+                 &#45;&#45;min&#45;completion&#45;for&#45;MAG 70
 </div>
 
-Now, the collection `SURFACE_OCEAN_MAGS` will include  `SURFACE_OCEAN_MAG_00001`, `SURFACE_OCEAN_MAG_00002`, `SURFACE_OCEAN_MAG_00003`, and `SURFACE_OCEAN_Bin_00004`. These are exactly the same bins that the collection contained before, but now the names differenciate the wheat from the chaff. 
+Now, the collection `SURFACE_OCEAN_MAGS` will include  `SURFACE_OCEAN_MAG_00001`, `SURFACE_OCEAN_MAG_00002`, `SURFACE_OCEAN_MAG_00003`, and `SURFACE_OCEAN_Bin_00004`. These are exactly the same bins that the collection contained before, but now the names differentiate the wheat from the chaff.
 
-Now, let's make that same collection (still called `SURFACE_OCEAN_MAGS`) that doesn't include `SURFACE_OCEAN_Bin_00003` as a MAG, since the redundency is too high for what we want to look at right now. 
+Now, let's make that same collection (still called `SURFACE_OCEAN_MAGS`) that doesn't include `SURFACE_OCEAN_Bin_00003` as a MAG, since the redundancy is too high for what we want to look at right now.
 
 <div class="codeblock" markdown="1">
 anvi&#45;rename&#45;bins &#45;c <span class="artifact&#45;n">[contigs&#45;db](/software/anvio/help/7.1/artifacts/contigs&#45;db)</span> \
@@ -91,7 +91,7 @@ anvi&#45;rename&#45;bins &#45;c <span class="artifact&#45;n">[contigs&#45;db](/s
                  &#45;&#45;collection&#45;to&#45;read MY_COLLECTION \
                  &#45;&#45;collection&#45;to&#45;write SURFACE_OCEAN_MAGS \
                  &#45;&#45;report&#45;file rename.txt \ 
-                 &#45;&#45;min&#45;completition&#45;for&#45;MAG 70 \
+                 &#45;&#45;min&#45;completion&#45;for&#45;MAG 70 \
                  &#45;&#45;max&#45;redundancy&#45;for&#45;MAG 30 \
                  &#45;&#45;call&#45;MAGs
 </div>
@@ -102,7 +102,7 @@ You also have the option to only classify bins above a certain minimum size as M
 
 ### Example 3: An example use case in a workflow
 
-For an example use case, on [this page](http://merenlab.org/tutorials/infant-gut/#renaming-bins-in-your-collection-from-chaos-to-order), anvi-rename-bins is used to create a new collection called `MAGs` that contains differenciates bins that have a completion stat of more than 70 percent, and renames all of those bins with the prefix `IGD` (which stands for infant gut dataset). 
+For an example use case, on [this page](http://merenlab.org/tutorials/infant-gut/#renaming-bins-in-your-collection-from-chaos-to-order), anvi-rename-bins is used to create a new collection called `MAGs` that contains differentiates bins that have a completion stat of more than 70 percent, and renames all of those bins with the prefix `IGD` (which stands for infant gut dataset).
 
 
 {:.notice}

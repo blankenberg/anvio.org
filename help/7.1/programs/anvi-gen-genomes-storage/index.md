@@ -60,7 +60,7 @@ anvi&#45;gen&#45;genomes&#45;storage &#45;i <span class="artifact&#45;n">[intern
 </div>
 
 {:.notice}
-The name of your genomes storage database (which follows the `-o` flag) must end with `-GENOMES.db`. This just helps differenciate it from other types of Anvi'o databases, such as the <span class="artifact-n">[contigs-db](/help/7.1/artifacts/contigs-db)</span> and <span class="artifact-n">[profile-db](/help/7.1/artifacts/profile-db)</span>. 
+The name of your genomes storage database (which follows the `-o` flag) must end with `-GENOMES.db`. This just helps differentiate it from other types of Anvi'o databases, such as the <span class="artifact-n">[contigs-db](/help/7.1/artifacts/contigs-db)</span> and <span class="artifact-n">[profile-db](/help/7.1/artifacts/profile-db)</span>.
 
 In contrast, <span class="artifact-n">[external-genomes](/help/7.1/artifacts/external-genomes)</span> describe genomes that are contained in a <span class="artifact-n">[fasta](/help/7.1/artifacts/fasta)</span> file that you've turned into a <span class="artifact-n">[contigs-db](/help/7.1/artifacts/contigs-db)</span> (using <span class="artifact-n">[anvi-gen-contigs-database](/help/7.1/programs/anvi-gen-contigs-database)</span>).  For example, if you had downloaded genomes from [NCBI](https://www.ncbi.nlm.nih.gov/). 
 

@@ -45,7 +45,7 @@ The purpose of this program is to affiliate single-copy core genes in an anvi&#x
 ## Usage
 
 
-This program **associates the single-copy core genes in your <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span> with taxnomy information.**  
+This program **associates the single-copy core genes in your <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span> with taxonomy information.**
 
 Once this information is stored in your <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span> (in the form of a <span class="artifact-n">[scgs-taxonomy](/help/main/artifacts/scgs-taxonomy)</span> artifact), you can run <span class="artifact-p">[anvi-estimate-scg-taxonomy](/help/main/programs/anvi-estimate-scg-taxonomy)</span> or use the <span class="artifact-p">[anvi-interactive](/help/main/programs/anvi-interactive)</span> and enable "Realtime taxonomy estimate for bins." Check out [this tutorial](http://merenlab.org/2019/10/08/anvio-scg-taxonomy/) for more information. 
 
@@ -53,7 +53,7 @@ In order to run this program, you'll need a <span class="artifact-n">[scgs-taxon
 
 ### What does this program do? 
 
-In short, this program searches all of the single-copy core genes that it uses for this workflow (which are the 22 listed on [this page](https://github.com/merenlab/anvio/tree/master/anvio/data/misc/SCG_TAXONOMY/GTDB/SCG_SEARCH_DATABASES)) against the [GTDB](https://gtdb.ecogenomic.org/) databases that you downloaded, and stores hits in your <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span>. In other words, it finds your single-copy core genes and assigns them taxonomy. This way, it can use these single-copy core genes later to estimate the taxnomy of larger groups of contigs that include these single-copy core genes when you run <span class="artifact-p">[anvi-estimate-scg-taxonomy](/help/main/programs/anvi-estimate-scg-taxonomy)</span>. 
+In short, this program searches all of the single-copy core genes that it uses for this workflow (which are the 22 listed on [this page](https://github.com/merenlab/anvio/tree/master/anvio/data/misc/SCG_TAXONOMY/GTDB/SCG_SEARCH_DATABASES)) against the [GTDB](https://gtdb.ecogenomic.org/) databases that you downloaded, and stores hits in your <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span>. In other words, it finds your single-copy core genes and assigns them taxonomy. This way, it can use these single-copy core genes later to estimate the taxonomy of larger groups of contigs that include these single-copy core genes when you run <span class="artifact-p">[anvi-estimate-scg-taxonomy](/help/main/programs/anvi-estimate-scg-taxonomy)</span>.
 
 ### Sweet. How do I run it? 
 

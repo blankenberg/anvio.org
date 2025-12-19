@@ -52,7 +52,7 @@ Once you have a <span class="artifact-n">[single-profile-db](/help/7.1/artifacts
 
 In short, this program runs various analyses on the contigs in your <span class="artifact-n">[contigs-db](/help/7.1/artifacts/contigs-db)</span> and how they relate to the sample information stored in the <span class="artifact-n">[bam-file](/help/7.1/artifacts/bam-file)</span> you provided. It then stores this information into a <span class="artifact-n">[single-profile-db](/help/7.1/artifacts/single-profile-db)</span>. Specifically, this program calculates 
 * coverage per nucleotide position (if you're unsure what coverage refers to, check out [this page](http://merenlab.org/vocabulary/#coverage))
-* single-nucleotide, single-codon, and single-amino acid variants (You can find all of those terms on the vocab page linked above, as well as a more detailed explaination [here](http://merenlab.org/2015/07/20/analyzing-variability/#an-intro-to-single-nucleotidecodonamino-acid-variation))
+* single-nucleotide, single-codon, and single-amino acid variants (You can find all of those terms on the vocab page linked above, as well as a more detailed explanation [here](http://merenlab.org/2015/07/20/analyzing-variability/#an-intro-to-single-nucleotidecodonamino-acid-variation))
 * structural variants such as insertions or deletions 
 
 ## Basic Usage

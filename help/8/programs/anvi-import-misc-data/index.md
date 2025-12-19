@@ -59,7 +59,7 @@ Please see [this blog post](http://merenlab.org/2017/12/11/additional-data-table
 
 ## Nucleotides, Amino Acids, and Contigs Databases
 
-This feature lets you import additional data about specfic residues or specific base pairs into your <span class="artifact-n">[contigs-db](/help/8/artifacts/contigs-db)</span>. This is especially useful for strucutral analysis (so when running programs like <span class="artifact-p">[anvi-display-structure](/help/8/programs/anvi-display-structure)</span>) and will be very relevant to the InteracDome functionality when it's added in anvi'o v7 (curious readers can take a look at [this blog post](http://merenlab.org/2020/07/22/interacdome/)).
+This feature lets you import additional data about specific residues or specific base pairs into your <span class="artifact-n">[contigs-db](/help/8/artifacts/contigs-db)</span>. This is especially useful for structural analysis (so when running programs like <span class="artifact-p">[anvi-display-structure](/help/8/programs/anvi-display-structure)</span>) and will be very relevant to the InteracDome functionality when it's added in anvi'o v7 (curious readers can take a look at [this blog post](http://merenlab.org/2020/07/22/interacdome/)).
 
 When adding additional data, unlike with layers and items, you do not have to provide values for every single nucleotide in your database. With this program, you can easily provide data for only a select few.
 

@@ -39,7 +39,7 @@ By default, this will be a directory called `SUMMARY` that will contain some sub
 
 #### The bin summary 
 
-By default, this is stored in a tab-delimited matrix called `bins_summary.txt`. In this matrix, the rows represent the <span class="artifact-n">[bin](/help/7.1/artifacts/bin)</span>s in your <span class="artifact-n">[profile-db](/help/7.1/artifacts/profile-db)</span>. The columns represent the following from left to right: the bin name,  the taxon ID (if calculated), the toal number of nucleotides in the bin, the toal number of contigs in the bin, the N50 statistic (see the page for <span class="artifact-n">[anvi-display-contigs-stats](/help/7.1/programs/anvi-display-contigs-stats)</span>), the GC content, and the completition and redundency. 
+By default, this is stored in a tab-delimited matrix called `bins_summary.txt`. In this matrix, the rows represent the <span class="artifact-n">[bin](/help/7.1/artifacts/bin)</span>s in your <span class="artifact-n">[profile-db](/help/7.1/artifacts/profile-db)</span>. The columns represent the following from left to right: the bin name,  the taxon ID (if calculated), the total number of nucleotides in the bin, the total number of contigs in the bin, the N50 statistic (see the page for <span class="artifact-n">[anvi-display-contigs-stats](/help/7.1/programs/anvi-display-contigs-stats)</span>), the GC content, and the completion and redundancy.
 
 #### Three subdirectories 
 
@@ -53,7 +53,7 @@ The subdirectories in the `SUMMARY` folder are as follows:
 
 #### The HTML document 
 
-When opened (usualy with an internet browser), you should see a page that looks somewhat like this. 
+When opened (usually with an internet browser), you should see a page that looks somewhat like this.
 
 ![An example of the HTML file that results from anvi-summarize.](../../images/summary_example.png)
 

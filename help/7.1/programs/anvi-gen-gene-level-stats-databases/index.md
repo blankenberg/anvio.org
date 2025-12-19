@@ -58,7 +58,7 @@ anvi&#45;gen&#45;gene&#45;level&#45;stats&#45;databases &#45;c <span class="arti
 
 Then it will create a directory called `GENES` that contains three <span class="artifact-n">[profile-db](/help/7.1/artifacts/profile-db)</span> called `GENE_COLLECTION-bin_0001.db`, `GENE_COLLECTION-bin_0002.db`, and `GENE_COLLECTION-bin_0003.db`. In terms of output, this program is similar to <span class="artifact-n">[anvi-split](/help/7.1/programs/anvi-split)</span>: each of these databases can now be treated as self-contained anvi'o projects but they also contain the gene-level information. Thus, you then could run <span class="artifact-n">[anvi-interactive](/help/7.1/programs/anvi-interactive)</span> in genes mode on one of these profile databases. 
 
-You also have the option to provide a list of <span class="artifact-n">[bin](/help/7.1/artifacts/bin)</span> (either as a file or as a string) to anlyze instead of a single <span class="artifact-n">[collection](/help/7.1/artifacts/collection)</span>. 
+You also have the option to provide a list of <span class="artifact-n">[bin](/help/7.1/artifacts/bin)</span> (either as a file or as a string) to analyze instead of a single <span class="artifact-n">[collection](/help/7.1/artifacts/collection)</span>.
 
 ### Other Parameters
 

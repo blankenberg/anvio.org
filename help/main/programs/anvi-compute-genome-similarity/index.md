@@ -48,7 +48,7 @@ This program uses the user's similarity metric of choice to calculate the simila
 
 The currently available programs for calculating similarity metrics include, chosen can be chosen with `--program`:
 - [PyANI](https://github.com/widdowquinn/pyani)) to calculate the average nucleotide identity (ANI) (i.e. what portion of orthologous gene pairs align)
-- [fastANI](https://github.com/ParBLiSS/FastANI) also to calcualte the ANI but at a faster speed (at the drawback of a slight reduction in accuracy)
+- [fastANI](https://github.com/ParBLiSS/FastANI) also to calculate the ANI but at a faster speed (at the drawback of a slight reduction in accuracy)
 - [sourmash](https://sourmash.readthedocs.io/en/latest/) to calculate the mash distance between genomes.  Though we provide this option, we don't recommend using sourmash for genome comparisons--it excels at other tasks--yet it remains as a legacy option.
 
 ### Input/Output

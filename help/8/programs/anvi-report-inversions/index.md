@@ -134,7 +134,7 @@ anvi&#45;report&#45;inversions &#45;P <span class="artifact&#45;n">[bams&#45;and
 
 ### Confirming inversions
 
-Multiple palindromes are usualy reported for each stretch and to confirm which one actually relates to an inversions, anvi'o searches short-reads in the bam file for unique constructs that can only occur when a genomic region inverted.
+Multiple palindromes are usually reported for each stretch and to confirm which one actually relates to an inversions, anvi'o searches short-reads in the bam file for unique constructs that can only occur when a genomic region inverted.
 
 By default, anvi'o reports the first confirmed palindrome and move to the next stretch. This process is very efficient as a strech usually have only one inversion. But in rare cases, you can have multiple inversions happening in a single stretch. Then, you can use the flag `--check-all-palindromes` and anvi'o will look for inversion evidences in the short-reads for every palindrome in a stretch.
 
@@ -199,7 +199,7 @@ These tables contains the following information:
 * entry ID,
 * contig name,
 * first palindrome sequence,
-* aligment midline,
+* alignment midline,
 * second palindrome sequence,
 * start and stop position of the first and second palindrome sequence,
 * number of mismatches,

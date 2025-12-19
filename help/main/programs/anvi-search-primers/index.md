@@ -63,7 +63,7 @@ The <span class="artifact-n">[samples-txt](/help/main/artifacts/samples-txt)</sp
 This will output all of the matching sequences into three <span class="artifact-n">[fasta](/help/main/artifacts/fasta)</span> files in the directory `OUTPUT`. These <span class="artifact-n">[fasta](/help/main/artifacts/fasta)</span> files differ in their format and will include those that describe,
 
 * Remainders are the downstream sequences after primer match, excluding the primer sequence.
-* Primer matches are the primer-matching part of the match sequences (useful if one is working with degenerate primers and wishes to see the diversity of matching seqeunces).
+* Primer matches are the primer-matching part of the match sequences (useful if one is working with degenerate primers and wishes to see the diversity of matching sequences).
 * Trimmed sequences are trimmed to the shortest length (and include primer match). All matching sequences will start at the same position.
 * Gapped sequences are not trimmed, but shorter ones are padded with gaps to eliminate length variation artificially.
 

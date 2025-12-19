@@ -31,7 +31,7 @@ Go back to the **[main page](../../)** of anvi'o programs and artifacts.
 ## Usage
 
 
-This program, as one might think, allows you to export a <span class="artifact-n">[misc-data-items-order](/help/7/artifacts/misc-data-items-order)</span>, outputing a <span class="artifact-n">[misc-data-items-order-txt](/help/7/artifacts/misc-data-items-order-txt)</span>. 
+This program, as one might think, allows you to export a <span class="artifact-n">[misc-data-items-order](/help/7/artifacts/misc-data-items-order)</span>, outputting a <span class="artifact-n">[misc-data-items-order-txt](/help/7/artifacts/misc-data-items-order-txt)</span>.
 
 You can export one of the item orders in a <span class="artifact-n">[profile-db](/help/7/artifacts/profile-db)</span> or <span class="artifact-n">[pan-db](/help/7/artifacts/pan-db)</span> as follows: 
 

@@ -42,7 +42,7 @@ A program to find palindromes in sequences.
 ## Usage
 
 
-This program finds [palindromes](https://en.wikipedia.org/wiki/Palindromic_sequence) in any DNA sequence. It will search for palindromes that mathes criteria listed by the user (i.e., minimum lenght of the palindromic sequences, maximum number of mismatches, and minimum distance between the two palindromic regions). The program will print out its findings (and tribulations) and will optionally report the search results as a <span class="artifact-n">[palindromes-txt](/help/7.1/artifacts/palindromes-txt)</span>.
+This program finds [palindromes](https://en.wikipedia.org/wiki/Palindromic_sequence) in any DNA sequence. It will search for palindromes that mathes criteria listed by the user (i.e., minimum length of the palindromic sequences, maximum number of mismatches, and minimum distance between the two palindromic regions). The program will print out its findings (and tribulations) and will optionally report the search results as a <span class="artifact-n">[palindromes-txt](/help/7.1/artifacts/palindromes-txt)</span>.
 
 Please note that this program can find both perfect palindromes (i.e., the identity and order of nucleotides on one strand match to those on the complementary strand) and special cases of palindromes that form [hairpins](https://en.wikipedia.org/wiki/Stem-loop). You can use the minimum distance parameter to target any group of palindromes (i.e., minimum distance of 0 will report only perfect palindromes).
 

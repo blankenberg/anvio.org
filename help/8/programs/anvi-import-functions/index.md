@@ -62,7 +62,7 @@ Edit [this file](https://github.com/merenlab/anvio/tree/master/anvio/docs/progra
 
 * [Importing GhostKOALA/KEGG annotations](http://merenlab.org/2018/01/17/importing-ghostkoala-annotations/)
 
-* [Importing VirSorter phage annotaions](http://merenlab.org/2018/02/08/importing-virsorter-annotations/)
+* [Importing VirSorter phage annotations](http://merenlab.org/2018/02/08/importing-virsorter-annotations/)
 
 
 {:.notice}

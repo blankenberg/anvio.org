@@ -206,11 +206,11 @@ Here is a list of the different filters that you can use to exclude some subsect
 
 - min/max number of genomes that the gene cluster occurs in. 
 - min/max number of genes from each genome. For example, you could exclude clusters that don't appear in every genome 3 times, or get single-copy genes by setting `max-num-genes-from-each-genome` to 1. 
-- min/max [geometric homogenity index](http://merenlab.org/2016/11/08/pangenomics-v2/#geometric-homogeneity-index) 
-- min/max [functional homogenity index](http://merenlab.org/2016/11/08/pangenomics-v2/#functional-homogeneity-index)
-- min/max combined homogenity index 
+- min/max [geometric homogeneity index](http://merenlab.org/2016/11/08/pangenomics-v2/#geometric-homogeneity-index)
+- min/max [functional homogeneity index](http://merenlab.org/2016/11/08/pangenomics-v2/#functional-homogeneity-index)
+- min/max combined homogeneity index
 
-For example, the following run on a <span class="artifact-n">[genomes-storage-db](/help/8/artifacts/genomes-storage-db)</span> that contains 50 genomes will report only the single-copy core genes with a functional homogenity index above 0.25:
+For example, the following run on a <span class="artifact-n">[genomes-storage-db](/help/8/artifacts/genomes-storage-db)</span> that contains 50 genomes will report only the single-copy core genes with a functional homogeneity index above 0.25:
 
 <div class="codeblock" markdown="1">
 anvi&#45;get&#45;sequences&#45;for&#45;gene&#45;clusters &#45;g <span class="artifact&#45;n">[genomes&#45;storage&#45;db](/help/8/artifacts/genomes&#45;storage&#45;db)</span> \
@@ -218,10 +218,10 @@ anvi&#45;get&#45;sequences&#45;for&#45;gene&#45;clusters &#45;g <span class="art
                                      &#45;o <span class="artifact&#45;n">[genes&#45;fasta](/help/8/artifacts/genes&#45;fasta)</span> \
                                      &#45;&#45;max&#45;num&#45;genes&#45;from&#45;each&#45;genome 1 \
                                      &#45;&#45;min&#45;num&#45;genomes&#45;gene&#45;cluster&#45;occurs 50 \
-                                     &#45;&#45;min&#45;functional&#45;homogenity&#45;index 0.25 
+                                     &#45;&#45;min&#45;functional&#45;homogeneity&#45;index 0.25
 </div>
 
-You can also exclude genomes that are missing some number of the gene clusters that you're working with by using the paramter `--max-num-gene-clusters-missing-from-genome`. 
+You can also exclude genomes that are missing some number of the gene clusters that you're working with by using the parameter `--max-num-gene-clusters-missing-from-genome`.
 
 For each of these parameters, see the program's help menu for more information. 
 

@@ -100,7 +100,7 @@ anvi&#45;pan&#45;genomes &#45;g <span class="artifact&#45;n">[genomes&#45;storag
                  &#45;n MY_PROJECT_NAME \
                  &#45;&#45;genome&#45;names GENOME_1,GENOME_2,GENOME_3 \
                  &#45;&#45;exclude&#45;partial&#45;gene&#45;calls \ 
-                 &#45;&#45;min&#45;occurance 2 \
+                 &#45;&#45;min&#45;occurrence 2 \
                  &#45;&#45;sensitive \
                  &#45;o PATH/TO/<span class="artifact&#45;n">[pan&#45;db](/help/7.1/artifacts/pan&#45;db)</span> 
 </div>

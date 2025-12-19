@@ -41,7 +41,7 @@ anvi&#45;script&#45;gen_stats_for_single_copy_core_genes.py &#45;c <span class="
 
 The console output will tell you the total number of contigs, splits, and nucleotides in your <span class="artifact-n">[contigs-db](/help/7/artifacts/contigs-db)</span>, while the text output will tell you the source, name, and e-value of each single-copy core gene. 
 
-You can get information from only single-copy core genes from a specific source. To see what sources are availible in your <span class="artifact-n">[contigs-db](/help/7/artifacts/contigs-db)</span>, run 
+You can get information from only single-copy core genes from a specific source. To see what sources are available in your <span class="artifact-n">[contigs-db](/help/7/artifacts/contigs-db)</span>, run
 
 <div class="codeblock" markdown="1">
 anvi&#45;script&#45;gen_stats_for_single_copy_core_genes.py &#45;c <span class="artifact&#45;n">[contigs&#45;db](/help/7/artifacts/contigs&#45;db)</span> \

@@ -649,7 +649,7 @@ This is done through 'references mode', but as you see in the relevant section, 
 where,
 
 * `03_CONTIGS` is the directory name defined in your config.json file to store contigs databases (`03_CONTIGS` is already the default directory name, so name it as such if you didn't change anything in the config.json).
-* The `.done` files in `03_CONTIGS` instrcuts anvi'o to not re-run those jobs on the existing contigs databse. Add them with `touch` or remove as necessary.
+* The `.done` files in `03_CONTIGS` instrcuts anvi'o to not re-run those jobs on the existing contigs database. Add them with `touch` or remove as necessary.
 * `config.json` is yor configuration where you have at least the following entries:
 
 ```

@@ -77,7 +77,7 @@ anvi&#45;run&#45;interacdome &#45;c <span class="artifact&#45;n">[contigs&#45;db
                      &#45;&#45;interacdome&#45;dataset confident
 </div>
 
-This progarm is multi-threaded, so be sure to make use of it:
+This program is multi-threaded, so be sure to make use of it:
 
 <div class="codeblock" markdown="1">
 anvi&#45;run&#45;interacdome &#45;c <span class="artifact&#45;n">[contigs&#45;db](/software/anvio/help/7.1/artifacts/contigs&#45;db)</span> \

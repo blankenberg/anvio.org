@@ -74,7 +74,7 @@ anvi&#45;estimate&#45;scg&#45;taxonomy &#45;c <span class="artifact&#45;n">[cont
 
 ### 2. Estimate the taxa within a metagenome
 
-By running this program in metagenome mode, it will assume that your <span class="artifact-n">[contigs-db](/help/8/artifacts/contigs-db)</span> contains multiple genomes and will try to give you an overview of the taxa within it. To do this, it will determine which single-copy core gene has the most hits in your contigs (for example `Ribosomal_S6`), and then will look at the taxnomy hits for that gene across your contigs. The output will be this list of taxonomy results.
+By running this program in metagenome mode, it will assume that your <span class="artifact-n">[contigs-db](/help/8/artifacts/contigs-db)</span> contains multiple genomes and will try to give you an overview of the taxa within it. To do this, it will determine which single-copy core gene has the most hits in your contigs (for example `Ribosomal_S6`), and then will look at the taxonomy hits for that gene across your contigs. The output will be this list of taxonomy results.
 
 <div class="codeblock" markdown="1">
 anvi&#45;estimate&#45;scg&#45;taxonomy &#45;c <span class="artifact&#45;n">[contigs&#45;db](/help/8/artifacts/contigs&#45;db)</span> \

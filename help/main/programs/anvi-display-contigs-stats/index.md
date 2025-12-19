@@ -66,7 +66,7 @@ anvi&#45;display&#45;contigs&#45;stats A.db \
                            X.db
 </div>
 
-If you are comparing multiple, each contigs databse will become an individual column in all outputs (columns are labeled with the `project_name` stored in each <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span>).
+If you are comparing multiple, each contigs database will become an individual column in all outputs (columns are labeled with the `project_name` stored in each <span class="artifact-n">[contigs-db](/help/main/artifacts/contigs-db)</span>).
 
 ### Interactive output
 

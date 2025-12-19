@@ -63,7 +63,7 @@ If you still have more positions than you can tell the program to pick a random 
 
 ### Modifying the Output
 
-By the default, the output data will use the departure from consensus values. If instead you want to look at the departure from the reference, just add the falg `--display-dep-from-reference`
+By the default, the output data will use the departure from consensus values. If instead you want to look at the departure from the reference, just add the flag `--display-dep-from-reference`
 
 
 {:.notice}

@@ -86,7 +86,7 @@ The user can define multiple contigs in the input file, and one or more nucleoti
 </tbody>
 </table>
 
-The resulting <span class="artifact-n">[linkmers-txt](/help/main/artifacts/linkmers-txt)</span> would include all short reads that match any of these critera
+The resulting <span class="artifact-n">[linkmers-txt](/help/main/artifacts/linkmers-txt)</span> would include all short reads that match any of these criteria
 
 ### Complete or incomplete links?
 

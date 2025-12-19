@@ -40,7 +40,7 @@ A gene database for a given <span class="artifact-n">[bin](/help/8/artifacts/bin
 
 Alternatively, genes databases can be explicitly generated using the program <span class="artifact-p">[anvi-gen-gene-level-stats-databases](/help/8/programs/anvi-gen-gene-level-stats-databases)</span>. By default, this program will generate a gene database for each <span class="artifact-n">[bin](/help/8/artifacts/bin)</span> for a given <span class="artifact-n">[collection](/help/8/artifacts/collection)</span>. 
 
-Due to the strucutral similarities between a <span class="artifact-n">[genes-db](/help/8/artifacts/genes-db)</span> and a <span class="artifact-n">[profile-db](/help/8/artifacts/profile-db)</span>, many of the anvi'o programs that operate on profile databases will also run on genes databases. These programs include those that import/export states and import/export misc additional data.
+Due to the structural similarities between a <span class="artifact-n">[genes-db](/help/8/artifacts/genes-db)</span> and a <span class="artifact-n">[profile-db](/help/8/artifacts/profile-db)</span>, many of the anvi'o programs that operate on profile databases will also run on genes databases. These programs include those that import/export states and import/export misc additional data.
 
 
 {:.notice}

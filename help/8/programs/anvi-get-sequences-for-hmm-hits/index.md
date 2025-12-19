@@ -146,7 +146,7 @@ Please note teh presence of a new flag in this particular command line, `--retur
 
 ## Tips
 
-### Get amino acid seqeunces for each gene in a model individually
+### Get amino acid sequences for each gene in a model individually
 
 If you are interested in recovering HMM hits for each gene in a model anvi'o knows about as a separate FASTA file, you can do it with a `for` loop easily. After learning your genes of interest, first run this to make sure your terminal environment knows about them (this is an example with a few genes from the HMM source `Bacteria_71`, but you can add as many genes as you like and use any HMM source anvi'o recognizes, of course):
 

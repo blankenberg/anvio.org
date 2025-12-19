@@ -63,9 +63,9 @@ This program can work with compressed input FASTA files (i.e., the file name end
 
 In addition to simplifying names, this program will allow you to do a combination of the operations that include,
 
-* Add a prefix to sequnce names in a FASTA file,
+* Add a prefix to sequence names in a FASTA file,
 * Remove sequences that are shorter than a specific length or only keep sequences that match to a specific length,
-* Remove sequences if they contain more than a number of gap characters or exceed the precentage of gap characters you permit,
+* Remove sequences if they contain more than a number of gap characters or exceed the percentage of gap characters you permit,
 * Exclude sequences that match to a list of sequence IDs, or only keep those that match to a list of sequence IDs,
 * Enforce a sequence type to replace any character with `N` for nucleotide sequences that are not A, C, T, or G, or replace any character with `X` for amino acid sequences if the character does not match any of the single-letter amino acid characters.
 

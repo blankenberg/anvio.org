@@ -77,7 +77,7 @@ Thus, after running this program on a bin with name `BIN_NAME`, you can run
                  &#45;p <span class="artifact&#45;n">[profile&#45;db](/software/anvio/help/7.1/artifacts/profile&#45;db)</span>
 </div>                                                   
 
-This will visually show you the coverage and detection of your genes across your samples in the <span class="artifact-n">[interactive](/software/anvio/help/7.1/artifacts/interactive)</span> interface (simlarly to [this figure](https://merenlab.org/data/prochlorococcus-metapangenome/#classification-of-genes-as-ecgs-and-eags-by-the-distribution-of-genes-in-a-genome-across-metagenomes)). 
+This will visually show you the coverage and detection of your genes across your samples in the <span class="artifact-n">[interactive](/software/anvio/help/7.1/artifacts/interactive)</span> interface (similarly to [this figure](https://merenlab.org/data/prochlorococcus-metapangenome/#classification-of-genes-as-ecgs-and-eags-by-the-distribution-of-genes-in-a-genome-across-metagenomes)).
 
 
 {:.notice}

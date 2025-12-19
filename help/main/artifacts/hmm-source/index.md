@@ -118,7 +118,7 @@ One can run this command:
                                                 &#45;O UpxZ
 </div>
 
-which would createa a directory called `UpxZ`. Then, one would run this command to find matches to this model in a given contigs database:
+which would create a directory called `UpxZ`. Then, one would run this command to find matches to this model in a given contigs database:
 
 <div class="codeblock" markdown="1">
 <span class="artifact&#45;p">[anvi&#45;run&#45;hmms](/help/main/programs/anvi&#45;run&#45;hmms)</span> &#45;c CONTIGS.db \

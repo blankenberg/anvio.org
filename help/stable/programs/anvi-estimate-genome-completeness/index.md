@@ -57,13 +57,13 @@ For example, calling
 anvi&#45;estimate&#45;genome&#45;completeness &#45;c <span class="artifact&#45;n">[contigs&#45;db](/software/anvio/help/7.1/artifacts/contigs&#45;db)</span> 
 </div>
 
-will output to the terminal the completition and redundancy of the single-copy core genes in your <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span>, assuming that all of its contigs represent a single genome. To output this information to a file, you can add the flag `-o` and provide an output path. 
+will output to the terminal the completion and redundancy of the single-copy core genes in your <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span>, assuming that all of its contigs represent a single genome. To output this information to a file, you can add the flag `-o` and provide an output path.
 
 To get this information for several contigs databases at once, you can provide them as an <span class="artifact-n">[external-genomes](/software/anvio/help/7.1/artifacts/external-genomes)</span>, as so:
 
 <div class="codeblock" markdown="1">
 anvi&#45;estimate&#45;genome&#45;completeness &#45;e <span class="artifact&#45;n">[external&#45;genomes](/software/anvio/help/7.1/artifacts/external&#45;genomes)</span> \
-                                  &#45;o completition.txt
+                                  &#45;o completion.txt
 </div>
 
 ### Running on bins 
@@ -86,7 +86,7 @@ anvi&#45;estimate&#45;genome&#45;completeness &#45;c <span class="artifact&#45;n
 
 or run <span class="artifact-n">[anvi-show-collections-and-bins](/software/anvio/help/7.1/programs/anvi-show-collections-and-bins)</span> for a more comprehensive overview. 
 
-If you're looking for a more comprehensive overview of your entire collection and its contents, the completition and redunduncy statistics for your bins are also included when you run <span class="artifact-n">[anvi-summarize](/software/anvio/help/7.1/programs/anvi-summarize)</span>. 
+If you're looking for a more comprehensive overview of your entire collection and its contents, the completion and redundancy statistics for your bins are also included when you run <span class="artifact-n">[anvi-summarize](/software/anvio/help/7.1/programs/anvi-summarize)</span>.
 
 
 {:.notice}

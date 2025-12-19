@@ -52,7 +52,7 @@ These tables contains the following columns:
 * Entry ID made with the contig's name and the start and stop position of the stretch
 * The contig's name
 * The first palindrome sequence
-* The aligment midline
+* The alignment midline
 * The second palindrome sequence
 * The start and stop position of the first and second palindrome sequence
 * The number of mismatches

@@ -77,7 +77,7 @@ anvi&#45;run&#45;hmms &#45;c CONTIGS_DB &#45;I Bacteria_71
 
 - Add the tag `--also-scan-trnas` to basically run <span class="artifact-n">[anvi-scan-trnas](/help/7/programs/anvi-scan-trnas)</span> for you at the same time. It's very convientient. 
 - Add the tag `--just-do-it` to hide all warnings and questions in case you don't want to deal with those.
--  There are also parameters that can help speed up the runtime of this program. However, be aware of the limits of your system, espeically if running on a SGE.  For example, you can increase the number of threads or switch to hmmsearch if you are scanning  a large umber of HMMs. For more information on that, check out [here](http://merenlab.org/vignette/#anvi-run-hmms). 
+-  There are also parameters that can help speed up the runtime of this program. However, be aware of the limits of your system, especially if running on a SGE.  For example, you can increase the number of threads or switch to hmmsearch if you are scanning  a large umber of HMMs. For more information on that, check out [here](http://merenlab.org/vignette/#anvi-run-hmms).
 
 ### See anvi-run-hmms in action
 

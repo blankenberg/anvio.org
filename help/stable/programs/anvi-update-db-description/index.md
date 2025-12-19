@@ -44,7 +44,7 @@ This program does not seem to provide any artifacts. Such programs usually print
 
 This program allows you to update the description of any anvi'o database with the push of a button (and the writing of an updated description). 
 
-This descirption helps make UIs a little prettier by showing up when you run programs like <span class="artifact-n">[anvi-interactive](/software/anvio/help/7.1/programs/anvi-interactive)</span> and <span class="artifact-n">[anvi-summarize](/software/anvio/help/7.1/programs/anvi-summarize)</span>. 
+This description helps make UIs a little prettier by showing up when you run programs like <span class="artifact-n">[anvi-interactive](/software/anvio/help/7.1/programs/anvi-interactive)</span> and <span class="artifact-n">[anvi-summarize](/software/anvio/help/7.1/programs/anvi-summarize)</span>.
 
 Simply write out the description that you would prefer in a plain text file (with markdown syntax) and use this program to update the description of any <span class="artifact-n">[pan-db](/software/anvio/help/7.1/artifacts/pan-db)</span>, <span class="artifact-n">[profile-db](/software/anvio/help/7.1/artifacts/profile-db)</span>, <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span>, or <span class="artifact-n">[genomes-storage-db](/software/anvio/help/7.1/artifacts/genomes-storage-db)</span>: 
 

@@ -48,7 +48,7 @@ This run will put the output directly in the database, as well as provide it as 
 
 You also have the option to calculate this information about only specific gene clusters, either by providing a gene cluster ID, list of gene cluster IDs, <span class="artifact-n">[collection](/help/7/artifacts/collection)</span> or <span class="artifact-n">[bin](/help/7/artifacts/bin)</span>. 
 
-To save on runtime, you can also enable `--quick-homogeneity`, which will not check for horizontal geometric homogenity (i.e. it will not look at alignments within a single gene). This will be less accurate for detailed analyses, but it will run faster. 
+To save on runtime, you can also enable `--quick-homogeneity`, which will not check for horizontal geometric homogeneity (i.e. it will not look at alignments within a single gene). This will be less accurate for detailed analyses, but it will run faster.
 
 Here is an example run that uses this flag and only looks at a specific collection: 
 

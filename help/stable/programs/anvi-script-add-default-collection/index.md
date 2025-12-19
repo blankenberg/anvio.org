@@ -44,7 +44,7 @@ A script to add a &#x27;DEFAULT&#x27; collection in an anvi&#x27;o pan or profil
 
 This program adds a new <span class="artifact-n">[collection](/software/anvio/help/7.1/artifacts/collection)</span> and <span class="artifact-n">[bin](/software/anvio/help/7.1/artifacts/bin)</span> to your <span class="artifact-n">[pan-db](/software/anvio/help/7.1/artifacts/pan-db)</span> or <span class="artifact-n">[profile-db](/software/anvio/help/7.1/artifacts/profile-db)</span> and <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span> pair. This collection and bin will both contain all of your contigs. 
 
-This way, you can perform collection and bin specfic operations without having to bin anything yourself. For example, running <span class="artifact-n">[anvi-interactive](/software/anvio/help/7.1/programs/anvi-interactive)</span> in gene-mode requires you to specify a collection and bin (as is done [in the Infant Gut Tutorial](http://merenlab.org/tutorials/infant-gut/#the-gene-mode-studying-distribution-patterns-at-the-gene-level)). 
+This way, you can perform collection and bin specific operations without having to bin anything yourself. For example, running <span class="artifact-n">[anvi-interactive](/software/anvio/help/7.1/programs/anvi-interactive)</span> in gene-mode requires you to specify a collection and bin (as is done [in the Infant Gut Tutorial](http://merenlab.org/tutorials/infant-gut/#the-gene-mode-studying-distribution-patterns-at-the-gene-level)).
 
 By default, the collection is named `DEFAULT` and the bin is named `EWVERYTHING`, but you can change these names with the `-C` and `-b` parameters respectively. 
 

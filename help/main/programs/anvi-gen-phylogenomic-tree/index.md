@@ -1,7 +1,7 @@
 ---
 layout: program
 title: anvi-gen-phylogenomic-tree
-excerpt: An anvi'o program. Generate phylogenomic tree from aligment file.
+excerpt: An anvi'o program. Generate phylogenomic tree from alignment file.
 categories: [anvio]
 comments: false
 redirect_from: /m/anvi-gen-phylogenomic-tree
@@ -10,7 +10,7 @@ image:
   display: true
 ---
 
-Generate phylogenomic tree from aligment file.
+Generate phylogenomic tree from alignment file.
 
 🔙 **[To the main page](../../)** of anvi'o programs and artifacts.
 

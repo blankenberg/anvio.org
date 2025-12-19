@@ -33,7 +33,7 @@ Go back to the **[main page](../../)** of anvi'o programs and artifacts.
 
 This program adds a new <span class="artifact-n">[collection](/help/7/artifacts/collection)</span> and <span class="artifact-n">[bin](/help/7/artifacts/bin)</span> to your <span class="artifact-n">[pan-db](/help/7/artifacts/pan-db)</span> or <span class="artifact-n">[profile-db](/help/7/artifacts/profile-db)</span> and <span class="artifact-n">[contigs-db](/help/7/artifacts/contigs-db)</span> pair. This collection and bin will both contain all of your contigs. 
 
-This way, you can perform collection and bin specfic operations without having to bin anything yourself. For example, running <span class="artifact-n">[anvi-interactive](/help/7/programs/anvi-interactive)</span> in gene-mode requires you to specify a collection and bin (as is done [in the Infant Gut Tutorial](http://merenlab.org/tutorials/infant-gut/#the-gene-mode-studying-distribution-patterns-at-the-gene-level)). 
+This way, you can perform collection and bin specific operations without having to bin anything yourself. For example, running <span class="artifact-n">[anvi-interactive](/help/7/programs/anvi-interactive)</span> in gene-mode requires you to specify a collection and bin (as is done [in the Infant Gut Tutorial](http://merenlab.org/tutorials/infant-gut/#the-gene-mode-studying-distribution-patterns-at-the-gene-level)).
 
 By default, the collection is named `DEFAULT` and the bin is named `EWVERYTHING`, but you can change these names with the `-C` and `-b` parameters respectively. 
 

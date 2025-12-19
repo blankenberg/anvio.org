@@ -46,7 +46,7 @@ This program helps you cut a &#x27;locus&#x27; from a larger genetic context (e.
 ## Usage
 
 
-This program lets you export selections of your <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span> around all occurances of a user-defined anchor gene. 
+This program lets you export selections of your <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span> around all occurrences of a user-defined anchor gene.
 
 The output of this is a folder that contains a separate <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span> for the region around each hit of the anchor gene. (In fact, you'll get a FASTA file, <span class="artifact-n">[contigs-db](/software/anvio/help/7.1/artifacts/contigs-db)</span>, <span class="artifact-n">[profile-db](/software/anvio/help/7.1/artifacts/profile-db)</span>, and a copy of the runlog).
 

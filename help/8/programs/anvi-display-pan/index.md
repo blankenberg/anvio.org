@@ -56,7 +56,7 @@ anvi&#45;display&#45;pan &#45;p <span class="artifact&#45;n">[pan&#45;db](/help/
                  &#45;g <span class="artifact&#45;n">[genomes&#45;storage&#45;db](/help/8/artifacts/genomes&#45;storage&#45;db)</span> 
 </div>
 
-There are several default layer orders to choose from, including organizing based on gene cluster presence/absense or gene cluster frequency. These will both group your core gene clusters and singletons separately. 
+There are several default layer orders to choose from, including organizing based on gene cluster presence/absence or gene cluster frequency. These will both group your core gene clusters and singletons separately.
 
 Beyond that, there are many different settings you can change in the side panel of the interface and you can import various additional data (primarily with the program <span class="artifact-p">[anvi-import-misc-data](/help/8/programs/anvi-import-misc-data)</span>). Once you're happy with the data displayed in the interface (and the prettiness of that data), you can  save those preferences in a <span class="artifact-n">[state](/help/8/artifacts/state)</span>. 
 
@@ -78,11 +78,11 @@ You have the option to specify quite a few aspects of the interface through the 
 
 - You can specify which view to start the interface with. Check which views are available with `--list-views`. 
 - You can load a specific <span class="artifact-n">[state](/help/8/artifacts/state)</span> (either a previous state or a state that you've imported with <span class="artifact-p">[anvi-import-state](/help/8/programs/anvi-import-state)</span>). Check which states are available with the flag `--list-states`. 
-- You can also load a specific <span class="artifact-n">[collection](/help/8/artifacts/collection)</span> with `--collection-autoload`. To check which collections are availible, use `--list-collections`. 
+- You can also load a specific <span class="artifact-n">[collection](/help/8/artifacts/collection)</span> with `--collection-autoload`. To check which collections are available, use `--list-collections`.
 
 ### Other parameters 
 
-You can also skip processes like intializing functions or automatically ordering your items to save time, as well as configure the server to your heart's content. 
+You can also skip processes like initializing functions or automatically ordering your items to save time, as well as configure the server to your heart's content.
 
 
 {:.notice}

@@ -61,13 +61,13 @@ If it runs without errors, you're golden. If not, please consult with the most u
 
 The program <span class="artifact-p">[anvi-pan-genome](/help/main/programs/anvi-pan-genome)</span> performs three major things for its user:
 
-1. Calculates the similarity between the all gene amino acid seqeunces found in genomes described in your <span class="artifact-n">[genomes-storage-db](/help/main/artifacts/genomes-storage-db)</span> using [DIAMOND](https://www.wsi.uni-tuebingen.de/lehrstuehle/algorithms-in-bioinformatics/software/diamond/). You have some options. Although, (1) you can use the NCBI's BLAST program [`blastp`](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins) instead of DIAMOND using the `--use-ncbi-blast` flag, (2) instead of analyzing all genomes you can focus a subset using the `--genome-names` parameter, and (3) exclude genes that are partial from your analysis using the flag `--exclude-partial-gene-calls` if you think you must.
+1. Calculates the similarity between the all gene amino acid sequences found in genomes described in your <span class="artifact-n">[genomes-storage-db](/help/main/artifacts/genomes-storage-db)</span> using [DIAMOND](https://www.wsi.uni-tuebingen.de/lehrstuehle/algorithms-in-bioinformatics/software/diamond/). You have some options. Although, (1) you can use the NCBI's BLAST program [`blastp`](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins) instead of DIAMOND using the `--use-ncbi-blast` flag, (2) instead of analyzing all genomes you can focus a subset using the `--genome-names` parameter, and (3) exclude genes that are partial from your analysis using the flag `--exclude-partial-gene-calls` if you think you must.
 
 2. Resolves gene clusters using the BLAST results via the [MCL](http://micans.org/mcl/) algorithm after discarding weak hits from the search results using the `--minbit` heuristic (inspired by the workflow implemented by ITEP ([Benedict et al., 2014](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-8)).
 
 3. Performs additional analyses of gene clusters for downstream analyses and visualization tasks. These analyses include,
 
-    * Multiple sequnce alignment of amino acid sequences in each gene cluster,
+    * Multiple sequence alignment of amino acid sequences in each gene cluster,
     * Computation of [functional and geometric homogeneity indices](https://merenlab.org/2016/11/08/pangenomics-v2/#functional-and-geometric-homogeneity-estimates-in-anvio),
     * Computation of average amino-acid identity (AAI) within each gene cluster,
     * Hierarchical clustering analysis of gene clusters based on their distribution across genomes, and genomes based on their sharing of the gene pool.
@@ -106,7 +106,7 @@ The additional parameters used for the search will be stored in the resulting <s
 {:.notice}
 For DIAMOND, if no additional parameters is declared, anvi'o will include `--masking 0` by default since we recently learned that not using that flag leads to the elmination of genes with many repeated elements (see [#1955](https://github.com/merenlab/anvio/issues/1955)).
 
-With the freedom of additional parameters for sequnce search, it is possible to make significant mistakes since anvi'o will have no opportunity to sanity-check user-defined additional parameters. If you are doing something experimental, please keep an eye on the output messages and error logs.
+With the freedom of additional parameters for sequence search, it is possible to make significant mistakes since anvi'o will have no opportunity to sanity-check user-defined additional parameters. If you are doing something experimental, please keep an eye on the output messages and error logs.
 
 If the user choses to use NCBI's BLAST program, in that case anvi'o will pass the value of the parameter `--additional-params-for-seq-search` to NCBI's `blastp`.
 

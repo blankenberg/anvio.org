@@ -35,7 +35,7 @@ A BIN-type anvi'o artifact. This artifact is typically generated, used, and/or e
 
 A bin is, in its simplest form, **a group of contigs**.  (Think of a literal bin that you're putting data into.)
 
-In Anvi'o, you'll most commonly work with bins both in this form and in the form of <span class="artifact-n">[internal-genomes](/software/anvio/help/7.1/artifacts/internal-genomes)</span>, espeically when you want to work with bins contained in more than one <span class="artifact-n">[profile-db](/software/anvio/help/7.1/artifacts/profile-db)</span>. A group of bins is called a <span class="artifact-n">[collection](/software/anvio/help/7.1/artifacts/collection)</span>.
+In Anvi'o, you'll most commonly work with bins both in this form and in the form of <span class="artifact-n">[internal-genomes](/software/anvio/help/7.1/artifacts/internal-genomes)</span>, especially when you want to work with bins contained in more than one <span class="artifact-n">[profile-db](/software/anvio/help/7.1/artifacts/profile-db)</span>. A group of bins is called a <span class="artifact-n">[collection](/software/anvio/help/7.1/artifacts/collection)</span>.
 
 ## What can you use bins for?
 

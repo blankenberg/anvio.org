@@ -80,7 +80,7 @@ That said, <span class="artifact-p">[anvi-report-circularity](/help/main/program
 
 ![Paired end read orientations for circularity](../../images/paired-end-read-orientations-for-circularity.png)
 
-Where they used this circularity principle to assess circularity of *de novo* identified plasmids in metagenomes. <span class="artifact-p">[anvi-report-circularity](/help/main/programs/anvi-report-circularity)</span> follows on the footsteps of that work, but improves it in important ways, and prevents the interplay between the lenght of a contig and the threshold for median insert size expectation to yield false positives for very short sequences.
+Where they used this circularity principle to assess circularity of *de novo* identified plasmids in metagenomes. <span class="artifact-p">[anvi-report-circularity](/help/main/programs/anvi-report-circularity)</span> follows on the footsteps of that work, but improves it in important ways, and prevents the interplay between the length of a contig and the threshold for median insert size expectation to yield false positives for very short sequences.
 
 {:.notice}
 We thank Sergio George Carreño, a Professor at the University of Chile who has been studying human gut plasmids at the University Medical Center Groningen, with his help with identifying these issues, and the time he put into testing <span class="artifact-p">[anvi-report-circularity](/help/main/programs/anvi-report-circularity)</span>.

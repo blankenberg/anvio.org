@@ -42,7 +42,7 @@ Export an item order from an anvi&#x27;o database.
 ## Usage
 
 
-This program, as one might think, allows you to export a <span class="artifact-n">[misc-data-items-order](/software/anvio/help/7.1/artifacts/misc-data-items-order)</span>, outputing a <span class="artifact-n">[misc-data-items-order-txt](/software/anvio/help/7.1/artifacts/misc-data-items-order-txt)</span>. 
+This program, as one might think, allows you to export a <span class="artifact-n">[misc-data-items-order](/software/anvio/help/7.1/artifacts/misc-data-items-order)</span>, outputting a <span class="artifact-n">[misc-data-items-order-txt](/software/anvio/help/7.1/artifacts/misc-data-items-order-txt)</span>.
 
 You can export one of the item orders in a <span class="artifact-n">[profile-db](/software/anvio/help/7.1/artifacts/profile-db)</span> or <span class="artifact-n">[pan-db](/software/anvio/help/7.1/artifacts/pan-db)</span> as follows: 
 
